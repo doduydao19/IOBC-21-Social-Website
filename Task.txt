@@ -7,3 +7,5 @@ Jade Rahmaoui > In charge of Home page
 Teddo > In charge of Login page
 Sofiane > In charge of Live Page
 Ilias > In charge of Video Page
+
+12/03/2021
