@@ -10,21 +10,32 @@ body{
 
 .home-container .fa{
     float: right;
-    padding: 14px 16px;
+    position: relative;
+    padding: 20px 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
 }
 
 .bell{
     color: yellow;
+    cursor: pointer;
+    font-size: 32px;
+    margin-bottom: 50px;
 }
 
 .menu{
     color: yellow;
+    cursor: pointer;
+    font-size: 32px;
+
 }
 
 .nav-wrapper{
-    display: flex;
+    display: block;
     justify-content: space-between;
-    padding: 38px;
+    padding: 100px;
 }
 
 .leftside{
@@ -34,9 +45,9 @@ body{
 .container{
     max-width: 500 !important;
     margin: auto;
-    margin-top: 4%;
+    margin-top: 4.5%;
     font-family: sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 img{
@@ -47,44 +58,45 @@ img{
 .msg-header{
     border: 1px solid #ccc;
     width: 100%;
-    height: 10%;
+    height: 20%;
     border-bottom: none;
     display: inline-block;
     background-color: #007bff;
 }
 
 .msg-header-img{
-    border-radius: 50%;
-    width: 40px;
-    margin-left: 5%;
-    margin-top: 12px;
+    border-radius: 70%;
+    width: 30px;
+    margin-left: 4%;
+    margin-top: 17px;
     float: left;
 }
 
 .active{
-    width: 120px;
+    width: 220px;
     float: left;
-    margin-top: 10px;
+    margin-top: 35pt;
 
 }
 
 .active h4{
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 24pt;
+    margin-left: 5px;
     color: #fff;
 }
 
 .active h6{
-    font-size: 10px;
-    margin-left: 10px;
+    font-size: 11pt;
+    margin-left: 5px;
     line-height: 2px;
     color: #fff;
 }
 
 .header-icon{
-   width: 120px;
+   width: 160px;
    float: right;
-   margin-top: 12px;
+   margin-top: 35pt;
+   font-size: 29px;
    margin-right: 10px; 
 }
 
@@ -95,7 +107,7 @@ img{
 }
 
 .chat-page{
-    padding 0 0 50px 0;
+    padding 0px 0px 50px 0;
 }
 
 .msg-inbox{
@@ -105,11 +117,11 @@ img{
 }
 
 .chats{
-    padding: 30px 15px 0 25px;
+    padding: 50px 15px 0 25px;
 }
 
 .msg-page{
-    height: 516px;
+    height: 700px;
     overflow-y: auto;
 }
 
@@ -123,7 +135,7 @@ img{
     display: inline-block;
     padding: 0 0 0 10px;
     vertical-align: top;
-    width: 92%;
+    width: 100%;
 }
 
 .received-msg-inbox{
@@ -132,9 +144,9 @@ img{
 
 .received-msg-inbox p{
     background: #efefef none repeat scroll 0 0;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #646464;
-    font-size: 14px;
+    font-size: 22px;
     margin: 0;
     padding: 5px 10px 5px 12px;
     width: 100%;
@@ -143,20 +155,20 @@ img{
 .time{
     color: #777;
     display: block;
-    font-size: 12px;
+    font-size: 15px;
     margin: 8px 0 0;
 }
 
 .outgoing-chat{
     overflow: hidden;
-    margin: 26px 20px ;
+    margin: 25px 20px ;
 }
 
 .outgoing-msg p{
     background: #007bff none repeat scroll 0 0;
     color: #fff;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 22px;
     margin: 0;
     color: #fff;
     padding: 5px 10px 5px 12px;
@@ -166,12 +178,12 @@ img{
 .outgoing-msg{
     float: left;
     width: 46%;
-    margin-left: 45%;
+    margin-left: 50%;
 }
 
 .outgoing-chat-img{
     display: inline-block;
-    width: 30px;
+    width: 50px;
     float: right;
 }
 
@@ -183,11 +195,11 @@ img{
 
 .input-group{
     float: right;
-    margin-top: 13px;
+    margin-top: 23px;
     margin-right: 20px;
     outline: none !important;
     border-radius: 20px;
-    width: 61% !important;
+    width: 60% !important;
     background-color: #fff ;
 }
 
@@ -205,9 +217,10 @@ img{
 
 .bottom-icon{
     float: left;
-    margin-top: 17px;
+    margin-top: 23px;
     width: 30% !important;
-    margin-left: 22px;
+    font-size: 21px;
+    margin-left: 10px;
 }
 
 .bottom-icon .fa{
@@ -218,6 +231,27 @@ img{
 .form-control:focus{
     border-color: none !important;
     box-shadow: none !important;
-    border-radius: 20px;
+    border-radius: 29px;
+}
+
+.contact-container {
+    width: 350px;
+    height: 550px;
+    cursor: pointer;
+    background: #57a0b6;
+    float: right;
+    position:static;
+    font-size: 20px;
+}
+.center {
+    width: 350px;
+    height: 550px;
+    cursor: pointer;
+    background: #57a0b6;
+    float: left;
+    font-size: 20px;
+}
+.h1 {
+    font-size: 20px;
 }
 
