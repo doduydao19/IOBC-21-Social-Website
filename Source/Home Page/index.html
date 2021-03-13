@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Up To Share</title>
+</head>
+<body>
+    <div id="contenu">
+    <heather>
+    <nav>
+        <img alt="image" src="UpToShare_logo.PNG"  width="120" height="75" />
+
+        <a href="#" class="bouton-1"><strong>join us </strong></a>
+        <a href="#" class="bouton-2"><strong>login</strong></a>
+        <input type="search" id="search" placeholder="search" onchange="ouvrirPage() ">
+        
+        <script>
+            function ouvrirPage() {
+                var a = document.getElementById("search").value;
+    
+                if (a === "page 1") {
+                    window.open("/inscription.html");
+                }
+    
+                if (a === "page 2") {
+                    window.open("/connexion.html");
+                }
+            }
+        </script>
+                <div class="lang-menu">
+                    <div class="selected-lang">
+                        English
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="" class="en">English</a>
+                        </li>
+                        <li>
+                            <a href="" class="fr">French</a>
+                        </li>
+                        <li>
+                            <a href="" class="ar">Arabic</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+      </nav>
+    </heather>
+    <section>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/wnhvanMdx4s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <P>
+            Vita est illis semper in fuga uxoresque mercenariae conductae ad tempus ex pacto atque, ut sit species matrimonii, dotis nomine futura coniunx hastam et tabernaculum offert marito, post statum diem si id elegerit discessura, et incredibile est quo ardore apud eos in venerem uterque solvitur sexus.
+
+            Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?
+
+            His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.
+
+            Cyprum itidem insulam procul a continenti discretam et portuosam inter municipia crebra urbes duae faciunt claram Salamis et Paphus, altera Iovis delubris altera Veneris templo insignis. tanta autem tamque multiplici fertilitate abundat rerum omnium eadem Cyprus ut nullius externi indigens adminiculi indigenis viribus a fundamento ipso carinae ad supremos usque carbasos aedificet onerariam navem omnibusque armamentis instructam mari committat.
+
+            Eo adducta re per Isauriam, rege Persarum bellis finitimis inligato repellenteque a conlimitiis suis ferocissimas gentes, quae mente quadam versabili hostiliter eum saepe incessunt et in nos arma moventem aliquotiens iuvant, Nohodares quidam nomine e numero optimatum, incursare Mesopotamiam quotiens copia dederit ordinatus, explorabat nostra sollicite, si repperisset usquam locum vi subita perrupturus.
+        </P>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <h1>Up to Share<span class="orange">.</span></h1> 
+        </div>
+        <div class="lien">
+            <a href="#" class="legal"><strong>Legal Notice</strong></a> 
+            <a href="#" class="terms"><strong>Terms of Service</strong></a>
+            <a href="#" class="about"><strong>About Us</strong></a>
+            <a href="#" class="forms"><strong>Forms</strong></a>
+            <a href="#" class="contact"><strong>Contact Us</strong></a>
+            <a href="#" class="privacy"><strong>Privacy Policy</strong></a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
