@@ -1,0 +1,233 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+header {
+    border-width: thick;
+    border-style: solid;
+
+}
+
+.search {
+    
+    background-color: azure;
+    border-style: solid;
+    border-width: thin;
+    background-image: url(../img/Loupe.jpg);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: 90% 50%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    
+}
+
+.logo {
+    display: inline-flex;
+    width: 6%;
+    height: 6%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.navgrise {
+    
+    display: inline-flex;
+    background-color: gray;
+    
+}
+
+.yol {
+    
+    width: 4%;
+    height: 4%;
+}
+
+.navgauche {
+    
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-right: 70%;
+
+}
+
+.home {
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 400px;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    border-top-width: medium;
+    border-top-style: solid;
+    
+}
+
+.homein {
+    
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    border-style: none;
+    
+}
+
+.homein:hover {
+    
+    color: red;
+    text-decoration-color: none;
+    
+}
+
+.videos {
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 200px;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    border-top-width: medium;
+    border-top-style: solid;
+    
+}
+
+.videosin {
+    
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    border-style: none;
+    
+}
+
+.videosin:hover {
+    
+    font-weight: bold;
+    color: red;
+    
+}
+
+.live {
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 200px;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    border-top-width: medium;
+    border-top-style: solid;
+    
+}
+
+.livein {
+    
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    border-style: none;
+    
+}
+
+.livein:hover {
+    
+    font-weight: bold;
+    color: red;
+    
+}
+
+.registered {
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 200px;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    border-top-width: medium;
+    border-top-style: solid;
+    
+}
+
+.registeredin {
+    
+    display: inline-block;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    border-style: none;
+    
+}
+
+.registeredin:hover {
+    
+    font-weight: bold;
+    color: red;
+
+}
+
+.tout {
+    
+    display: flex;
+    
+}
+
+.video1 {
+    
+    margin-top: 50px;
+    margin-left: 400px;
+    
+}
+
+.likesharediv {
+    
+    display: flex;
+    
+}
+
+.likeshareavion {
+    
+    margin-top: 10px;
+    
+}
+
+.video2 {
+    
+    display: inline-flex;
+    
+}
+
+.footernav {
+    
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    background-color: lightgray;
+}
