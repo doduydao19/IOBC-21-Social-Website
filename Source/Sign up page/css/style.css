@@ -174,3 +174,43 @@ h2 {
   .btn.btn-google {
     background: #ea4335;
     color: #fff; }
+    
+footer
+{
+  padding: 20px 0;
+
+}
+
+footer .container
+{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer-nav ul
+{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer-nav ul li
+{
+  margin-right: 30px;
+}
+
+.footer-nav ul li a
+{
+  color: #003569;
+}
+
+.copyright-notice
+{
+  color: #999999;
+}
