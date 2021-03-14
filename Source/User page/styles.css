@@ -2,6 +2,7 @@ body{
     margin: 0px;
 }
 
+
 .home-container{
     display: grid;
     grid-template-columns: 1fr;
@@ -36,16 +37,19 @@ body{
     display: block;
     justify-content: space-between;
     padding: 100px;
+    border: 1px solid #ccc;
+    overflow: hidden;
 }
 
 .leftside{
     display: flex;
+    width: 50%;
 }
 
 .container{
     max-width: 500 !important;
     margin: auto;
-    margin-top: 4.5%;
+    margin-top: 0%;
     font-family: sans-serif;
     letter-spacing: 1px;
 }
@@ -61,7 +65,7 @@ img{
     height: 20%;
     border-bottom: none;
     display: inline-block;
-    background-color: #007bff;
+    background-color: orange;
 }
 
 .msg-header-img{
@@ -165,7 +169,7 @@ img{
 }
 
 .outgoing-msg p{
-    background: #007bff none repeat scroll 0 0;
+    background: orange none repeat scroll 0 0;
     color: #fff;
     border-radius: 10px;
     font-size: 22px;
@@ -190,7 +194,7 @@ img{
 .message-bottom{
     position: relative;
     height: 10%;
-    background-color: #007bff;   
+    background-color: orange;   
 }
 
 .input-group{
@@ -213,14 +217,13 @@ img{
     border: none !important;
 }
 
-
-
 .bottom-icon{
     float: left;
     margin-top: 23px;
     width: 30% !important;
     font-size: 21px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .bottom-icon .fa{
@@ -240,18 +243,47 @@ img{
     cursor: pointer;
     background: #57a0b6;
     float: right;
-    position:static;
     font-size: 20px;
+    text-emphasis-position: top left;
 }
+
 .center {
-    width: 350px;
+    width: 30%;
     height: 550px;
     cursor: pointer;
     background: #57a0b6;
     float: left;
     font-size: 20px;
+    text-align: left;
 }
+
 .h1 {
     font-size: 20px;
 }
-
+.f-grid {
+    display: grid;
+    /* W(adjusted) = W(individual) - (1rem * 1/2) */
+    grid-template-columns: calc(35% - (40px * 1/2)) calc(35% - (40px * 1/2));
+    grid-column-gap: 950px;
+    position: absolute;
+    width: 864px;
+    height: 500px;
+}
+ul {
+    padding: 10px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.f-grid-col {
+    padding: 30px;
+    background-color: orange;
+    color: #fff;
+}
+.pleft {
+    text-align: left;
+}
