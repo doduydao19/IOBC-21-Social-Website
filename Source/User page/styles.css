@@ -284,6 +284,19 @@ ul {
     background-color: orange;
     color: #fff;
 }
+.user-info{
+    display: block;
+    width: 40px;
+    float: top;
+}
+
+.frd-info{
+    display: inline-block;
+    width: 40px;
+    float: left;
+       
+}
+
 .pleft {
     text-align: left;
-}
+} 
