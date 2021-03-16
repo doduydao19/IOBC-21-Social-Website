@@ -7,10 +7,11 @@
 <body>
   <!------------Navigation bar-------------->  
   <div class="nav-bar">
-    <a class="active" href="#home">Home</a>
-    <a href="#Private dashboard"> Private dashboard</a>
-    <a href="#Photo"> Photo</a>
-    <a href="#Contact"> Contact</a>
+    <a class="active" href="Home.html">Home</a>
+    <a href="user_page.html"> Private dashboard</a>
+    <a href="Photo.html"> Photo</a>
+    <a href="Contact.html"> Friend</a>
+    <a href="Message.html"> Message</a>
     <a href="#" class="notification">
         <span>Notification</span>
         <span class="badge">3</span>
@@ -97,19 +98,6 @@
     <button onclick="myFunction()" id="myBtn">Read more</button>
   </div>
 
-  <!-----------pop up box chat---------------->
-  <div class="chat-popup" id="myForm">
-    <form action="/action_page.php" class="form-container">
-      <h1>Chat</h1>
-  
-      <label for="msg"><b>Message</b></label>
-      <textarea placeholder="Type message.." name="msg" required></textarea>
-  
-      <button type="submit" class="btn">Send</button>
-      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-    </form>
-  </div> 
-
 </body>
     <script>
     //Main thread
@@ -129,16 +117,6 @@
         moreText.style.display = "inline";
     }
     }
-
-    //box chat
-    function openForm() {
-    document.getElementById("myForm").style.display = "block";
-    }
-
-    function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-    } 
-
     </script>
 </html>
 
