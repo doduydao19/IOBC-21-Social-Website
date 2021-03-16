@@ -1,116 +1,162 @@
 <html>
-<head>
- <title>User Page</title>
- <link rel="stylesheet" href="msg-style.css">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
-     <!------------Navigation bar-------------->  
-    <div class="nav-bar">
-        <a class="active" href="Home.html">Home</a>
-        <a href="user_page.html"> Private dashboard</a>
-        <a href="Photo.html"> Photo</a>
-        <a href="Contact.html"> Friend</a>
-        <a href="Message.html"> Message</a>
-        <a href="#" class="notification">
-            <span>Notification</span>
-            <span class="badge">3</span>
-        </a> 
-        <input type="text" placeholder="Search..">
-    </div>
+    <head>
+        <title>UpToShare</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A cross-generational plateform for sharing skills and experience">
+        <meta name="keywords" content="Html, Css, Php">
+        <meta name="author" content="Do Duy Dao, Sofiane, Ilias, Ted, Jade, TaAnhQuan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="CSS/Header-Footer.css">
+        <link rel="stylesheet" href="CSS/msg-style.css"> 
+        <link rel="shortcut icon" href="Img/UpToShare_logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    </head>
+
+    <body id="background">
+    <header>
+        <div class="nav">
+            <div class="name">
+                    <div>
+                        <img src="Img/UpToShare_logo.png" alt="UpToShare" width="15%" style="margin-left: 5%">
+                        <label>
+                            <input type="text" placeholder="Search.." class="search" style="margin-left: 30%;">
+                        </label>
+                    </div>
+                    <script>
+                        function ouvrirPage() {
+                            var a = document.getElementById("search").value;
+
+                            if (a === "page 1") {
+                                window.open("/inscription.html");
+                            }
+
+                            if (a === "page 2") {
+                                window.open("/connexion.html");
+                            }
+                        }
+                    </script>
+                    <div class="lang-menu" style="margin-left: 23%;margin-top: 2.5%;font-family: fantasy" style="width: 100%">
+                        <div class="selected-lang" style="color: #EF7F00">
+                            English
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="" class="en">English</a>
+                            </li>
+                            <li>
+                                <a href="" class="fr">French</a>
+                            </li>
+                            <li>
+                                <a href="" class="ar">Arabic</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="Home.php"><img src="Img/house%20(1).png" alt="House" style="width: 30%"></a></li>
+                    <li><a href="News-Posts.php"><img src="Img/news.png" alt="News" style="width: 30%" id="international"></a></li>
+                    <li><a href="Live-Video.php"><img src="Img/blog%20(1).png" alt="videos/live" style="width: 30%"></a></li>
+                </ul>
+                <p style="width: 10%; margin-top: 4%; font-family: fantasy; font-size: 14pt" id="signup"><a href="" style="text-decoration: none; width: 8%; letter-spacing:1pt" class="signup">Sign Up</a></p>
+                <p style="width: 10%; margin-top: 4%; color: #EF7F00; font-family: fantasy; font-size: 14pt" class="signin"><a href="" style="text-decoration: none; letter-spacing:1pt" class="signin">Sign In</a></p>
+            </nav>
+        </div>
+    </header>
+
 
     <div class="container">
-       <!---------Discussion box--------->
-       <div class="msg-header">
-        <div class="msg-header-img">
-            <img src="User.png">
-        </div>
-
-        <div class="active">
-            <h4>User</h4>
-            <h6>4 hours ago...</h6>
-        </div>
-
-        <div class="header-icon">
-            <i class="fa fa-phone"></i>
-            <i class="fa fa-video-camera"></i>
-            <i class="fa fa-info-circle"></i>
-        </div>
-    </div>
-
-    <div class="chat-page">
-        <div class="msg-inbox">
-            <div class="chats">
-                <div class="msg-page">
-
-                    <!--------first line---------------->
-                    <div class="received-chat">
-                        <div class="received-chat-img">
-                            <img src="User.png">
-                        </div>
-                        <div class="received-msg"> 
-                            <div class="received-msg-inbox">
-                                <p>Hi!</p>
-                                <span class="time">13:00 PM | March 12</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="outgoing-chat">
-                        <div class="outgoing-msg">  
-                                <p>Hello!</p>
-                                <span class="time">13:05 PM | March 12</span>
-                        </div>
-                        <div class="outgoing-chat-img">
-                            <img src="User.png">
-                        </div>
-                    </div>
-
-                    <!-----------second line---------->
-                    <div class="received-chat">
-                        <div class="received-chat-img">
-                            <img src="User.png">
-                        </div>
-                        <div class="received-msg"> 
-                            <div class="received-msg-inbox">
-                                <p>How are you?</p>
-                                <span class="time">13:06 PM | March 12</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="outgoing-chat">
-                        <div class="outgoing-msg">  
-                                <p>I'm fine</p>
-                                <span class="time">13:07 PM | March 12</span>
-                        </div>
-                        <div class="outgoing-chat-img">
-                            <img src="User.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="message-bottom">
-        <div class="bottom-icon">
-            <i class="fa fa-plus-circle"></i>
-            <i class="fa fa-camera"></i>
-            <i class="fa fa-microphone"></i>
-            <i class="fa fa-smile-o"></i>
-        </div>
-
-        <div class="input-group">
-            <input type="text" class="from-control" placeholder="write message...">
-            <div class="input-group-append">
-                <span class="input-group-text"><i class="fa fa-paper-plane"></i></span>
-            </div>
-        </div>
-    </div>
-        
-    <!--------Discussion box end here----------->
-</div>
+        <!---------Discussion box--------->
+        <div class="msg-header">
+         <div class="msg-header-img">
+             <img src="User.png">
+         </div>
+ 
+         <div class="active">
+             <h4>User</h4>
+             <h6>4 hours ago...</h6>
+         </div>
+ 
+         <div class="header-icon">
+             <i class="fa fa-phone"></i>
+             <i class="fa fa-video-camera"></i>
+             <i class="fa fa-info-circle"></i>
+         </div>
+     </div>
+ 
+     <div class="chat-page">
+         <div class="msg-inbox">
+             <div class="chats">
+                 <div class="msg-page">
+ 
+                     <!--------first line---------------->
+                     <div class="received-chat">
+                         <div class="received-chat-img">
+                             <img src="User.png">
+                         </div>
+                         <div class="received-msg"> 
+                             <div class="received-msg-inbox">
+                                 <p>Hi!</p>
+                                 <span class="time">13:00 PM | March 12</span>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="outgoing-chat">
+                         <div class="outgoing-msg">  
+                                 <p>Hello!</p>
+                                 <span class="time">13:05 PM | March 12</span>
+                         </div>
+                         <div class="outgoing-chat-img">
+                             <img src="User.png">
+                         </div>
+                     </div>
+ 
+                     <!-----------second line---------->
+                     <div class="received-chat">
+                         <div class="received-chat-img">
+                             <img src="User.png">
+                         </div>
+                         <div class="received-msg"> 
+                             <div class="received-msg-inbox">
+                                 <p>How are you?</p>
+                                 <span class="time">13:06 PM | March 12</span>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="outgoing-chat">
+                         <div class="outgoing-msg">  
+                                 <p>I'm fine</p>
+                                 <span class="time">13:07 PM | March 12</span>
+                         </div>
+                         <div class="outgoing-chat-img">
+                             <img src="User.png">
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="message-bottom">
+         <div class="bottom-icon">
+             <i class="fa fa-plus-circle"></i>
+             <i class="fa fa-camera"></i>
+             <i class="fa fa-microphone"></i>
+             <i class="fa fa-smile-o"></i>
+         </div>
+ 
+         <div class="input-group">
+             <input type="text" class="from-control" placeholder="write message...">
+             <div class="input-group-append">
+                 <span class="input-group-text"><i class="fa fa-paper-plane"></i></span>
+             </div>
+         </div>
+     </div>
+     <!--------Discussion box end here----------->
 
 </body>
 </html>
