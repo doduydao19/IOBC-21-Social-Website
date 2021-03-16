@@ -194,7 +194,9 @@ li a:hover {
 .ar:before {
     background-image: url(https://www.countryflags.io/ae/flat/32.png);
 }
-
+.vn:before {
+    background-image: url(https://www.countryflags.io/vn/flat/32.png);
+}
 
 .lang-menu:hover ul {
     display: block;
