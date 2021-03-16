@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <title>UpToShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A cross-generational plateform for sharing skills and experience">
+    <meta name="keywords" content="Html, Css, Php">
+    <meta name="author" content="Do Duy Dao, Sofiane, Ilias, Ted, Jade, TaAnhQuan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/Header-Footer.css">
+    <link rel="shortcut icon" href="Img/UpToShare_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/stylePriv.css">
+</head>
+
+<body id="background">
+    <header>
+        <div class="nav">
+            <div class="name">
+                <div>
+                    <a href="#"><img src="Img/UpToShare_logo.png" alt="UpToShare" width="15%" style="margin-left: 5%"></a>
+                    <label>
+                        <input type="text" placeholder="Search.." class="search" style="margin-left: 30%;">
+                    </label>
+                </div>
+                <script>
+                    function ouvrirPage() {
+                        var a = document.getElementById("search").value;
+
+                        if (a === "page 1") {
+                            window.open("/inscription.html");
+                        }
+
+                        if (a === "page 2") {
+                            window.open("/connexion.html");
+                        }
+                    }
+
+                </script>
+                <div class="lang-menu" style="margin-left: 23%;margin-top: 2.5%;font-family: fantasy" style="width: 100%">
+                    <div class="selected-lang" style="color: #EF7F00">
+                        English
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="" class="en">English</a>
+                        </li>
+                        <li>
+                            <a href="" class="fr">French</a>
+                        </li>
+                        <li>
+                            <a href="" class="ar">Arabic</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="Home.php"><img src="Img/house%20(1).png" alt="House" style="width: 30%"></a></li>
+                    <li><a href="News-Posts.php"><img src="Img/news.png" alt="News" style="width: 30%" id="international"></a></li>
+                    <li><a href="Live-Video.php"><img src="Img/blog%20(1).png" alt="videos/live" style="width: 30%"></a></li>
+                </ul>
+                <p style="width: 10%; margin-top: 4%; font-family: fantasy; font-size: 14pt" id="signup"><a href="" style="text-decoration: none; width: 8%; letter-spacing:1pt" class="signup">Sign Up</a></p>
+                <p style="width: 10%; margin-top: 4%; color: #EF7F00; font-family: fantasy; font-size: 14pt" class="signin"><a href="" style="text-decoration: none; letter-spacing:1pt" class="signin">Sign In</a></p>
+            </nav>
+        </div>
+    </header>
+    <container>
+        <div class="priv">
+            <p>We are UpToShare ("we", "our", "us"). We’re committed to protecting and respecting your privacy. If you have questions about your personal information please <a href="#">contact us</a>.</p>
+
+            <h2>What information we hold about you</h2>
+            <p>The type of data that we collect and process includes:</p>
+            <ul>
+                <li class="li1">-Your name or username.</li>
+                <li class="li1">-Your email address.</li>
+                <li class="li1">-Your IP address.</li>
+            </ul>
+            <p>Further data may be collected if you choose to share it, such as if you fill out fields on your profile.</p>
+            <p>We collect some or all of this information in the following cases:</p>
+            <ul>
+                <li class="li1">-You register as a member on this site.</li>
+                <li class="li1">-You fill out our contact form.</li>
+                <li class="li1">-You browse this site. See "Cookie policy" below.</li>
+                <li class="li1">-You fill out fields on your profile.</li>
+            </ul>
+
+            <h2>How your personal information is used</h2>
+            <p>We may use your personal information in the following ways:</p>
+            <ul>
+                <li class="li1">-For the purposes of making you a registered member of our site, in order for you to contribute content to this site.</li>
+                <li class="li1">-We may use your email address to inform you of activity on our site.</li>
+                <li class="li1">-Your IP address is recorded when you perform certain actions on our site. Your IP address is never publicly visible.</li>
+            </ul>
+
+            <h2>Other ways we may use your personal information.</h2>
+            <p>In addition to notifying you of activity on our site which may be relevant to you, from time to time we may wish to communicate with all members any important information such as newsletters or announcements by email. You can opt-in to or opt-out of such emails in your profile.</p>
+            <p>We may collect non-personally identifiable information about you in the course of your interaction with our site. This information may include technical information about the browser or type of device you're using. This information will be used purely for the purposes of analytics and tracking the number of visitors to our site.</p>
+
+            <h2>Keeping your data secure</h2>
+            <p>We are committed to ensuring that any information you provide to us is secure. In order to prevent unauthorized access or disclosure, we have put in place suitable measures and procedures to safeguard and secure the information that we collect.</p>
+
+            <h2>Cookie policy</h2>
+            <p>Cookies are small text files which are set by us on your computer which allow us to provide certain functionality on our site, such as being able to log in, or remembering certain preferences.</p>
+            <p>We have a detailed cookie policy and more information about the cookies that we set on <a href="#">this page</a>.</p>
+
+            <h2>Rights</h2>
+            <p>You have a right to access the personal data we hold about you or obtain a copy of it. To do so please <a href="#">contact us</a>. If you believe that the information we hold for you is incomplete or inaccurate, you may <a href="#">contact us</a> to ask us to complete or correct that information.</p>
+            <p>You also have the right to request that your account be deleted, however, to ensure completeness of our event records, your messages, posts, and registry data will remain even if this is done. By signing up, you accept any data you submit may not be deleted.</p>
+
+            <h2>Acceptance of this policy</h2>
+            <p>Continued use of our site signifies your acceptance of this policy. If you do not accept the policy then please do not use this site. When registering we will further request your explicit acceptance of the privacy policy.</p>
+
+            <h2>Changes to this policy</h2>
+            <p>We may make changes to this policy at any time. You may be asked to review and re-accept the information in this policy if it changes in the future.</p>
+        </div>
+    </container>
+    <footer>
+        <div>
+            <nav>
+                <div class="wrapper">
+                    <h1>Up to Share<span class="orange">.</span></h1>
+                </div>
+                <div class="lien" style="margin-top: 2%">
+                    <a href="#" class="legal" style="font-family: fantasy; text-decoration: none; font-size: 14pt; letter-spacing:1pt">Legal Notice</a>
+                    <a href="#" class="terms" style="font-family: fantasy; text-decoration: none; font-size: 14pt; letter-spacing:1pt">Terms of Service</a>
+                    <a href="#" class="about" style="font-family: fantasy; text-decoration: none; font-size: 14pt; letter-spacing:1pt">About Us</a>
+                    <a href="#" class="forms" style="font-family: fantasy; text-decoration: none; font-size: 14pt; letter-spacing:1pt">Forms</a>
+                    <a href="#" class="contact" style="font-family: fantasy; text-decoration: none; font-size: 14pt; letter-spacing:1pt">Contact Us</a>
+                    <a href="#" class="privacy" style="font-family: fantasy; text-decoration: none; font-size: 14pt; letter-spacing:1pt">Privacy Policy</a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
